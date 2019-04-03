@@ -1,16 +1,20 @@
-body {
+body{
   text-align: center;
   font-family: Helvetica;
 }
 
+h1, #background, footer{
+  color: white;
+}
+
 /*HEADINGS AND PARAGRAPHS*/
+
 h1, h3, h4 {
   font-weight: bold;
 }
 
 h1 {
   font-size: 70px;
-  color: white;
 }
 
 h3 {
@@ -24,6 +28,7 @@ h4 {
 p {
   font-size: 14px;
 }
+
 /*NAVIGATION*/
 a {
   font-size: 18px;
@@ -32,6 +37,12 @@ a {
 
 footer {
   font-size: 11px;
-  color: white;
   background-color: dimgray;
+  text-align: left;
+}
+
+/*BACKGROUND IMAGE*/
+#home, #background {
+  background-image: url('../images/the-flatiron-building.png');
+  background-position: center;
 }
