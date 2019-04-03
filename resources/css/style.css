@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  font-family: Helvetica;
+}
+
+/*HEADINGS AND PARAGRAPHS*/
+h1, h3, h4 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 70px;
+  color: white;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 23px;
+}
+
+p {
+  font-size: 14px;
+}
+/*NAVIGATION*/
+a {
+  font-size: 18px;
+  color: #ffffff !important;
+}
+
+footer {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+}
